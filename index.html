@@ -9,78 +9,89 @@
     <title>Ian Mills Portfolio</title>
 </head>
 <body>
-  <div class="navbarMyClass">
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active navbarMyClass" href="#scroll1" id="hoverColor">About Me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbarMyClass" href="#scroll2" id="hoverColor">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbarMyClass" href="#scroll3" id="hoverColor">Contact Info</a>
-      </li>
-    </ul>
-  </div>
-  <div class="jumbotron jumbotron-fluid jumboMyClass">
-    <div class="container">
-      <h1 class="display-none">Ian Mills</h1>
-      <h2 class="display-none">Portfolio</h2>  
+  <div class="page">
+    <div class="navbar section">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#scroll1">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#scroll2">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#scroll3">Contact Info</a>
+        </li>
+      </ul>
     </div>
-  </div>
-  <div class="jumbotron jumbotron-fluid jumboMyClass2">
+    <div class="jumbotron jumbotron-fluid jumbo1 section">
       <div class="container">
-        <h1 class="display-none" id="scroll1">About Me</h1>
-        <p class="lead display-none">Hello, my name is Ian Mills and I am currently in Eleven Fifty's immersive .NET program. As an aspiring .NET developer I am eager to learn everything I can.</p>
-        <br>
-        <p class="lead display-none">For my previous education I attended DePauw University and received a bachelor's degree in Economics in 2013. After college I worked at a school in their financial aid department. I never felt satisfied and was constantly searching for something to challenge myself. A friend suggested learning some coding and I fell in love with it. After I finish the .NET program I'm looking forward to a challenging and rewarding career.</p>
-        <br>
-        <p class="lead display-none">Please download my resume below to learn more about my experience.</p>
-        <a class="btn btn-light btn-lg buttonColor" role="button" href="Resume.pdf" download="Resume.pdf" target="_blank" id="hoverColor">Download Resume</a>
+        <h1 class="display-none">Ian Mills</h1>
+        <h2 class="display-none">Portfolio</h2>  
       </div>
-  </div>
-  <div class="jumbotron jumbotron-fluid jumboMyClass3">
-    <div class="container">
+    </div>
+    <div class="jumbotron jumbotron-fluid jumbo2 section">
+        <div class="container">
+          <h1 class="display-none" id="scroll1">About Me</h1>
+          <p class="lead display-none">Hello, my name is Ian Mills and I am currently in Eleven Fifty's immersive .NET program. As an aspiring .NET developer I am eager to learn everything I can.</p><br>
+          <p class="lead display-none">For my previous education I attended DePauw University and received a bachelor's degree in Economics in 2013. After college I worked at a school in their financial aid department. I never felt satisfied and was constantly searching for something to challenge myself. A friend suggested learning some coding and I fell in love with it. After I finish the .NET program I'm looking forward to a challenging and rewarding career.</p><br>
+          <p class="lead display-none">Please download my resume below to learn more about my experience.</p>
+          <a class="btn btn-light btn-lg" role="button" href="Resume.pdf" download="Resume.pdf" target="_blank">Download Resume</a>
+        </div>
+    </div>
+    <div class="title">
       <h1 class="display-none" id="scroll2">Projects</h1>
     </div>
-    <div class="card" id="card1" style="width: 18rem;">
-      <a href="https://codepen.io/iandmills/pen/qBWMbKv" target="_blank"><img src="img/CSS_Creature.PNG" alt="Thumbnail of CSS Creature website" class="card-img-top picturesize"></a>
-        <div class="card-body">
-          <h5 class="card-title">CSS Creature</h5>
-          <p class="card-text">An animal created using solely HTML and CSS.</p>
-        </div>
-    </div>
-    <div class="card" id="card2" style="width: 18rem;">
-      <a href="https://ianmills1.github.io/StaticStorefront/" target="_blank"><img src="img/Static_Storefront.PNG" alt="Thumbnail of Static Storefront website" class="card-img-top picturesize"></a>
-        <div class="card-body">
-          <h5 class="card-title">Static Layout</h5>
-          <p class="card-text">A static webpage designed using HTML and CSS.</p>
-        </div>
-    </div>
-    <div class="card" id="card3" style="width: 18rem;">
-      <img src="img/Coming_Soon.png" alt="Coming soon picture" class="card-img-top picturesize">
-      <div class="card-body">
-        <h5 class="card-title">Blue Badge</h5>
-        <p class="card-text">Coming soon! Please check back later.</p>
+    <div class="jumbotron jumbotron-fluid jumbo3 section">
+      <div class="card" id="card1" style="width: 18rem;">
+        <a href="https://codepen.io/iandmills/pen/qBWMbKv" target="_blank"><img src="img/CSS_Creature.PNG" alt="Thumbnail of CSS Creature website" class="card-img-top picturesize"></a>
+          <div class="card-body">
+            <h5 class="card-title">CSS Creature</h5>
+            <p class="card-text">An animal created using solely HTML and CSS.</p>
+          </div>
+      </div>
+      <div class="card" id="card2" style="width: 18rem;">
+        <a href="https://ianmills1.github.io/StaticStorefront/" target="_blank"><img src="img/Static_Storefront.PNG" alt="Thumbnail of Static Storefront website" class="card-img-top picturesize"></a>
+          <div class="card-body">
+            <h5 class="card-title">Static Layout</h5>
+            <p class="card-text">A static webpage designed using HTML and CSS.</p>
+          </div>
       </div>
     </div>
-  </div>
-  <div class="jumbotron jumbotron-fluid jumboMyClass4">
-    <div class="container">
-      <h1 class="display-none" id="scroll3">Contact Info</h1>
-      <form action="https://formspree.io/iandmills1@gmail.com" method="POST">
-        <input type="text" name="name" placeholder="Full Name" class="inputArea"><br>
-        <input type="email" name="_replyto" placeholder="Email" class="inputArea"><br>
-        <textarea placeholder="Message Here" class="inputArea" id="textArea"></textarea><br>
-        <input type="submit" value="Send" class="buttonColor" id="hoverColor">
-    </form>
+    <div class="jumbotron jumbotron-fluid jumbo4 section">
+      <div class="card" id="card3" style="width: 18rem;">
+        <a href="https://github.com/ianmills1/BetTracker/" target="_blank"><img src="img/Web_Application.PNG" alt="Thumbnail of Web Application website" class="card-img-top picturesize"></a>
+        <div class="card-body">
+          <h5 class="card-title">Blue Badge</h5>
+          <p class="card-text">A web application designed to track sports bets.</p>
+        </div>
+      </div>
+      <div class="card" id="card4" style="width: 18rem;">
+        <img src="img/Coming_Soon.png" alt="Coming soon picture" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Red Badge</h5>
+          <p class="card-text">Coming soon! Please check back later.</p>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid jumbo5 section">
+      <div class="container">
+        <h1 class="display-none" id="scroll3">Contact Info</h1>
+        <form action="https://formspree.io/iandmills1@gmail.com" method="POST">
+          <input type="text" name="name" placeholder="Full Name"><br>
+          <input type="email" name="_replyto" placeholder="Email"><br>
+          <textarea placeholder="Message Here"></textarea><br>
+          <input type="submit" value="Send" id="submit">
+        </form>
+      </div>
+    </div>
+    <div class="footer section">
+      <footer>
+      <p>© 2019 Ian Mills</p>
+      <a href="https://www.linkedin.com/in/ian-mills-773660194/" target="_blank"><img src="img/LinkedIn_Logo.png" alt="LinkedIn logo"></a>
+      <a href="https://github.com/ianmills1" target="_blank"><img src="img/GitHub_Logo.png" alt="GitHub logo"></a>
+      </footer>
     </div>
   </div>
-  <footer class="footer">
-    <p>© 2019 Ian Mills</p>
-    <a href="https://www.linkedin.com/in/ian-mills-773660194/" target="_blank"><img src="img/LinkedIn_Logo.png" alt="LinkedIn logo" id="logo1"></a>
-    <a href="https://github.com/ianmills1" target="_blank"><img src="img/GitHub_Logo.png" alt="GitHub logo" id="logo2"></a>
-  </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

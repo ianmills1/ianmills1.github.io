@@ -1,72 +1,58 @@
+/* Universal selector */
+
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.navbarMyClass {
+/* Container formatting */
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar {
     color: rgb(136, 6, 6);
     background-color: lightgray;
-        padding: 15px 125px;
+    padding: 15px 125px;
 }
 
-.jumboMyClass {
+.jumbo1 {
     color: rgb(136, 6, 6);
     background-color: white;
     padding: 325px 0px;
     text-align: center;
 }
 
-.jumboMyClass2 {
+.jumbo2 {
     color: rgb(136, 6, 6);
     background-color: lightgray;
 }
 
-.buttonColor {
+.jumbo3 {
     color: rgb(136, 6, 6);
+    background-color: white;
+    margin-bottom: -75px;
 }
 
-.jumboMyClass3 {
+.jumbo4 {
     color: rgb(136, 6, 6);
     background-color: white;
 }
 
-.jumboMyClass4 {
+.jumbo5 {
     color: rgb(136, 6, 6);
     background-color: lightgray;
-}
-
-#card1, #card2, #card3 {
-    display: inline-block;
-}
-
-#card1 {
-    margin-left: 200px;
-    margin-right: 125px;
-}
-
-#card2 {
-    margin-right: 125px;
-}
-
-.picturesize {
-    height: 250px;
-}
-
-#scroll1, #scroll2, #scroll3 {
-    padding-bottom: 25px;
-}
-
-.inputArea {
-    width: 300px;
-    margin-bottom: 5px;
-}
-
-#textArea {
-    width: 450px;
-    height: 100px;
-}
-
-#hoverColor:hover {
-    color: black;
 }
 
 .footer {
@@ -75,12 +61,98 @@
     text-align: center;
 }
 
-#logo1 {
-    height: 45px;
-    width: 45px;
+/* Project card formatting */
+
+#card1, #card2 {
+    display: inline-block;
 }
 
-#logo2 {
-    height: 60px;
-    width: 60px;
+#card3, #card4 {
+    display: inline-block
 }
+
+.jumbo3 img {
+    height: 250px;
+}
+
+.jumbo4 img {
+    height: 250px;
+}
+
+/* Rest of page design */
+
+p {
+    word-wrap: break-word;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(136, 6, 6)
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.jumbo2 a {
+    color: rgb(136, 6, 6);
+}
+
+h1 {
+    color: rgb(136, 6, 6);
+}
+
+.title {
+    width: 100%;
+    padding-top: 4em;
+    padding-left: 202px;
+    background-color: white;
+}
+
+.jumbo5 input {
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+.jumbo5 textarea {
+    width: 45%;
+    height: 100px;
+}
+
+#submit {
+    color: rgb(136, 6, 6);
+    background-color: white;
+    width: 50px;
+    border-radius: 15%;
+}
+
+#submit:hover {
+    color: black;
+}
+
+.footer img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: lightgray;
+    }
+  }
+  
+  /* Tablet */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: lightgray;
+    }
+  }
+  
+  /* Desktop */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: lightgray;
+    }
+  }
